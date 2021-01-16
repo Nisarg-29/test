@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Register for any Event</title>
+  </head>
+  <body>
+    <header>
+      <h1>Enter your details here</h1>
+    </header>
+    <form action="pregister.php" method="post">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email ID:</label>
+      <input type="email" id="em" name="em"><br><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" checked="checked">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+      <input type="radio" id="in" name="in" value="In" checked="checked">
+      <label for="female">Individual</label><br>
+      <input type="radio" id="gp" name="in" value="Gp">
+      <label for="other">Group</label><br><br>
+      <label for="people">No. of people</label>
+      <input type="number" id="p" name="p" value="P"><br><br>
+
+      <input type="submit" value="Submit"><br>
+      <a href="Homepage.html">Return to Homepage</a>
+    </form>
+  </body>
+</html>

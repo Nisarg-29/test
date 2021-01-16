@@ -1,0 +1,32 @@
+body{
+  background: rgba(100, 50, 0, 0.5);
+}
+body h1{
+  background: rgba(255, 255, 255, 1);
+  color: rgba(0, 255, 0, 0.5);
+  text-align: center;
+  text-shadow: 0 0 0 #fff;
+  border: 100%;
+  font-size: 150;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+#link1{
+  color: #fff;
+  text-align: center;
+  font-size: 40;
+}
+#link2{
+  color: #fff;
+  text-align: center;
+  font-size: 40;
+}
+#link3{
+  color: #fff;
+  text-align: center;
+  font-size: 40;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
